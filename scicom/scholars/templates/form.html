@@ -1,0 +1,104 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:py="http://genshi.edgewall.org/"
+     >
+
+<form action="./generate">
+
+<input name="partner_id" value="${partner_id}" type="hidden" />
+
+<label for="manuscript">Manuscript Title</label>
+   <input name="manuscript" id="txt_title" />
+   <a href="" class="helpLink" id="title" name="Manuscript Title">?</a>
+
+<div id="help_title">
+  <div class="hd">Manuscript Title</div>
+  <div class="bd"><p>Type the full title of the article, as it will appear 
+in the published version.</p></div>
+</div>
+
+<br/>
+
+<label for="journal">Journal</label>
+   <input name="journal" id="txt_journal" />
+   <a href="" class="helpLink" id="journal" name="Journal">?</a>
+
+<div id="help_journal">
+  <div class="hd">Journal</div>
+  <div class="bd"><p>Type the full name of the journal or publication in 
+which the article will be published.  Do not use abbreviated titles.</p>
+</div>
+</div>
+
+<br/>
+
+
+<label for="author">Author Information</label>
+  <div id="author_container">
+   <input name="author" />
+   <a href="" class="helpLink" id="author" name="Author Information">?</a>
+   <a href="#" class="helpLink" id="addAuthor" name="add author">+</a>
+
+<div id="help_author">
+  <div class="hd">Author Information</div>
+  <div class="bd">
+<p>
+     Type the full name (first name, middle initial, last name) of 
+     each author, as it will appear in the published version.</p>
+<p> 
+  To add an additional author, click the <span class="helpLink">+</span> button.
+</p>
+
+</div>
+</div>
+
+<br/>
+  </div>
+
+<label for="publisher">Publisher</label>
+   <input name="publisher"  id="txt_publisher" />
+   <a href="" class="helpLink" id="publisher" name="Publisher">?</a>
+
+<div id="help_publisher">
+  <div class="hd">Publisher</div>
+  <div class="bd">
+     <p>Type the name of the publisher of the journal or publication in 
+     which the article will appear. This name can usually be found in 
+     the copyright assignment agreement provided by the publisher or 
+     on the masthead of the publication.</p>
+</div>
+</div>
+
+<br/>
+
+<label for="agreement">Agreement Type</label>
+        
+   <select name="agreement">
+     <py:for each="agr in agreements">
+       <py:choose>
+	 <py:when test="default == agr">
+	   <option value="${agr}" selected="1">${agreements[agr].NAME}</option>
+	 </py:when>
+	 <py:otherwise>
+	   <option value="${agr}">${agreements[agr].NAME}</option>
+	 </py:otherwise>
+       </py:choose>
+     </py:for>
+   </select>
+
+   <a href="" class="helpLink" id="agreement" name="Agreement Type">?</a>
+
+<div id="help_agreement">
+  <div class="hd">Agreement Type</div>
+  <div class="bd">
+<p>Please refer to the <a href="http://www.sciencecommons.org/resources/faq/authorsaddendum">FAQ</a> for more help selecting your addendum.
+</p>
+</div>
+</div>
+
+<br/>
+
+<button type="submit" class="generate" id="generate">Generate Addendum</button>
+
+</form>
+
+</div>

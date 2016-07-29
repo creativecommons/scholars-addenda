@@ -1,0 +1,75 @@
+/* Basic styling for the Scholars Copyright Addendum Generator */
+
+h1 { 
+   font-size: 1.5em;
+}
+
+label { 
+   font-size: 0.9em;
+   font-weight: bold;
+   text-align: right;
+
+   float: left;
+   width: 200px;
+   margin-right: 10px;
+}
+
+input {
+   left: 210px;
+   width: 300px;
+   margin-bottom: 5px;
+   border: 1px solid #555;
+   padding: 2px;
+   height: 20px;
+}
+
+select {
+   width: 300px;
+   border: 1px solid #555;
+   height: 20px;
+}
+
+button.generate {
+   text-align: center;
+   margin-left: 220px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 5px;
+}
+
+p { 
+   font-size: 1em;
+}
+
+p.footer { 
+   font-size: 0.7em;
+   text-align: center;
+}
+
+.helptext {
+   font-size: .8em;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.red {
+background-color: red;
+}
+
+.helpLink {
+background-color: #80b3ff;
+color: white;
+text-decoration: none;
+margin-bottom: 2px;
+padding-left:2px;
+padding-right:2px;
+
+}
+
+.additional {
+  margin-left:210px;
+}
+
+.error {
+  background-color: #faa;
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+server = scicom.scholars.app:serve
+

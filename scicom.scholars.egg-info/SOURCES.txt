@@ -1,0 +1,53 @@
+buildout.cfg
+scholars.zd.conf
+setup.py
+bootstrap/bootstrap.py
+docs/Embargo (Final)
+docs/No Embargo (Final).doc
+docs/Retain CC Rights (Final).doc
+docs/Retain CC Rights (Final).html
+docs/Retain CC Rights (Final)_html_m43364f58.jpg
+docs/retain_cc_rights.html
+scicom/__init__.py
+scicom.scholars.egg-info/PKG-INFO
+scicom.scholars.egg-info/SOURCES.txt
+scicom.scholars.egg-info/dependency_links.txt
+scicom.scholars.egg-info/entry_points.txt
+scicom.scholars.egg-info/namespace_packages.txt
+scicom.scholars.egg-info/not-zip-safe
+scicom.scholars.egg-info/requires.txt
+scicom.scholars.egg-info/top_level.txt
+scicom/scholars/__init__.py
+scicom/scholars/app.py
+scicom/scholars/dbconn.py
+scicom/scholars/generate.py
+scicom/scholars/local.conf
+scicom/scholars/stats.py
+scicom/scholars/agreements/__init__.py
+scicom/scholars/agreements/embargo.py
+scicom/scholars/agreements/mit.py
+scicom/scholars/agreements/noembargo.py
+scicom/scholars/agreements/retaincc.py
+scicom/scholars/agreements/support.py
+scicom/scholars/static/__init__.py
+scicom/scholars/static/favicon.ico
+scicom/scholars/static/css/basic.css
+scicom/scholars/static/css/jtip.css
+scicom/scholars/static/css/scholars.css
+scicom/scholars/static/images/arrow_left.gif
+scicom/scholars/static/images/arrow_right.gif
+scicom/scholars/static/images/loader.gif
+scicom/scholars/static/images/popup.gif
+scicom/scholars/static/images/scicom.gif
+scicom/scholars/static/images/sparc-wordmark.png
+scicom/scholars/static/integration_example/index.html
+scicom/scholars/static/js/help.js
+scicom/scholars/static/js/jquery.pack.js
+scicom/scholars/static/js/jtip.js
+scicom/scholars/static/js/scholars.js
+scicom/scholars/templates/__init__.py
+scicom/scholars/templates/disclaimer.html
+scicom/scholars/templates/form.html
+scicom/scholars/templates/iframe.html
+scicom/scholars/templates/index.html
+scicom/scholars/templates/stats.html

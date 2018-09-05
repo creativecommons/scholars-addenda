@@ -45,7 +45,7 @@ styles['disclaimer'].leading = 8
 
 Title = "ADDENDUM TO PUBLICATION AGREEMENT"
 Footer = "Model Author's Addendum to Publication Agreement 1.0"
-Disclaimer = "<b>Neither Creative Commons nor Science Commons are parties to this agreement or provide legal advice.  Please visit www.sciencecommons.org for more information and specific disclaimers.</b>"
+Disclaimer = "<b>Creative Commons is not a party to this agreement and does not provide legal advice.  Please visit creativecommons.org for more information and specific disclaimers.</b>"
 
 def getDocument(filename):
     """Returns a ReportLab Document with the appropriate margins set."""
